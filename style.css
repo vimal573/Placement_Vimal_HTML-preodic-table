@@ -1,5 +1,66 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 70px;
+  animation: flicker 1.5s infinite alternate;
+}
+
+td {
+  text-align: center;
+  width: 5vw;
+  /* Pixel (px) = (Viewport width unit (vw) * Viewport width) / 100 */
+  border: 1px solid black;
+  size: 12px;
+  font-weight: 500;
+}
+
+.none {
+  border: none;
+}
+
+.color1 {
+  background-color: #ff9e9e;
+}
+
+.color2 {
+  background-color: #ff9e9e;
+}
+
+.color3 {
+  background-color: #ff9e9e;
+}
+
+.color4 {
+  background-color: #ffc1c1;
+}
+
+.color5 {
+  background-color: #ffc1c1;
+}
+
+.color6 {
+  background-color: #ffff9a;
+}
+
+.color7 {
+  background-color: #ffff9a;
+}
+
+.color8 {
+  background-color: #59cf6e;
+}
+
+.color9 {
+  background-color: #329090;
+}
+
+.color10 {
+  background-color: #ffc1c1;
+}
+
+.color11 {
+  background-color: #ffff9a;
 }
